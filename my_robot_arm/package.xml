@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <name>my_robot_arm</name>
+  <version>0.0.0</version>
+
+  <description>
+    Four-joint robotic arm simulation using ROS 2 Jazzy,
+    Gazebo and ros2_control.
+  </description>
+
+  <maintainer email="your_email@example.com">
+    hana_marwan
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>trajectory_msgs</depend>
+
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
+
+  <depend>xacro</depend>
+
+  <depend>controller_manager</depend>
+  <depend>joint_trajectory_controller</depend>
+  <depend>gz_ros2_control</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>
