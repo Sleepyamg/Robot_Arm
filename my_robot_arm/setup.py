@@ -45,8 +45,8 @@ setup(
     description="ROS 2 robotic arm assignment",
     license="Apache-2.0",
     entry_points={
-        "console_scripts": [
-            "trajectory_controller = my_robot_arm.trajectory_controller:main",
+        'console_scripts': [
+            'serial_bridge = my_robot_arm.serial_bridge:main',
         ],
     },
 )
